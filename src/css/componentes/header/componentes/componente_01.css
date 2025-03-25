@@ -1,0 +1,21 @@
+.header_left {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header_left i {
+    font-size: 2rem;
+    padding: 0.8rem;
+    border-radius: 50%;
+}
+
+.header_left i:hover {
+    background-color: var(--cor-02);
+    transition: all .8s;
+}
+
+.header_left img {
+    width: 20vh;
+    height: 5vh;
+}

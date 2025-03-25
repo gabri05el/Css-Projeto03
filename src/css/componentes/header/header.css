@@ -1,0 +1,17 @@
+@import url(./componentes/componente_01.css);
+@import url(./componentes/componente_02.css);
+@import url(./componentes/componente_03.css);
+
+.header_content {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    width: 100%;
+    height: 12vh;
+    padding: 0 2rem;
+}
+
+.header_content div i {
+    color: var(--cor-04);
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+@import url(./componentes/header/header.css);
+@import url(./componentes/main/main.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --cor-01: #fff;
+    --cor-02: #dfdcdc;
+    --cor-03: #524f4f;
+    --cor-04: #2e2d2d;
+    --cor-05: #fa0505;
+
+    --fonte-01: "Open Sans", sans-serif;
+    --fonte-02: "Roboto Condensed", sans-serif;
+    --fonte-03: "Rubik", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-01);
+}

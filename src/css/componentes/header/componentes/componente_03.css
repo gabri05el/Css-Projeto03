@@ -1,0 +1,16 @@
+.header_right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header_right i {
+    font-size: 2rem;
+    padding: 0.8rem;
+    border-radius: 50%;
+}
+
+.header_right i:hover {
+    background-color: var(--cor-02);
+    color: var(--cor-03);
+    transition: all .8s;
+}

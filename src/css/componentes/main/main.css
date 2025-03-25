@@ -1,0 +1,8 @@
+@import url(./componentes/componente_01.css);
+@import url(./componentes/componente_02.css);
+
+.main_content {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    margin: 1rem 0 0 3%;
+}
